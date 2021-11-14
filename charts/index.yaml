@@ -1,0 +1,11 @@
+apiVersion: v1
+entries:
+  test-app:
+    - created: 2020-10-10T12:12:12-05:00
+      description: basic test-app
+      name: test-app
+      sources:
+        - https://github.com/helm/helm
+      urls:
+        - https://marcjmiller.github.io/charts/test-app-0.0.1.tgz
+      version: 0.0.1
